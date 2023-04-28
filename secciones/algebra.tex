@@ -1,0 +1,118 @@
+% arara: clean: {
+% arara: --> extensions:
+% arara: --> ['log','aux','out','pytxcode','synctex.gz','toc',
+% arara: --> 'bbl','bcf','blg','run.xml','lof','pdf']
+% arara: --> }
+% arara: pdflatex: {
+% arara: --> shell: 1,
+% arara: --> interaction: batchmode
+% arara: --> }
+% arara: pythontex: {
+% arara: --> jobs: 4,
+% arara: --> verbose: yes
+% arara: --> }
+% arara: pdflatex: {
+% arara: --> shell: 1,
+% arara: --> interaction: batchmode
+% arara: --> }
+% arara: clean: {
+% arara: --> extensions:
+% arara: --> ['log','aux','out','pytxcode','synctex.gz','toc',
+% arara: --> 'bbl','bcf','blg','run.xml','lof']
+% arara: --> }
+
+
+
+
+
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[total={18cm,24cm},centering]{geometry}
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{cancel}
+\usepackage{array}
+\usepackage{float}
+\usepackage[spanish,activeacute,es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{epstopdf}
+%\usepackage{tabularx}
+\usepackage{mathpazo}
+\usepackage{keyval,ifthen,latexsym,graphicx,moreverb}
+\usepackage{txfonts}
+\usepackage{svg}
+\usepackage{times}
+\usepackage{array, multirow, multicol}
+\usepackage{xltabular}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{comment}
+\usepackage{pythontex}
+
+
+\begin{document}
+ %calcular las raíces del polinomio $p(x)=2x^6+5x^5+2x^2-3x+4=0$. 
+    \begin{pycode}
+import numpy as np
+import sympy as sym
+from sympy import *
+
+# Definir las variables simbólicas
+#definir los coeficientes del polinomio
+
+
+n = 4
+
+x, y, z = sym.symbols('x y z')
+
+# Definir el polinomio
+polinomio = x**5 + 3*x**2*y + 3*x*y**2 + y**3
+
+# Factorizar el polinomio
+polinomio_factorizado = sym.factor(polinomio)
+
+\end{pycode}
+
+el polinomio $p(x)=\py{latex(polinomio)}$ factorizado es $\py{latex(polinomio_factorizado)}$.
+
+de igual manera para factorizar un polinomio con raices reales e imaginarias.
+
+\begin{pycode}
+from sympy import *
+
+#definir el polinomio
+
+x = symbols('x')
+polinomio2= x**2 + 2*x + 1
+
+#factorizar el polinomio
+
+factores2 = factor(polinomio2)
+
+# mostrar el polinomio factorizado con raices reales e imaginarias
+
+for f in factores.args:
+      print(f)
+      raices = solve(f,x)
+      for r in raices:
+	if r.is_real:
+		print(r)
+	else:
+		print(r.evalf())
+\end{pycode}
+
+las raíces del polinomio $p(x)=\py{latex(polinomio2)}$.
+
+\end{document}
+
+
+
+
+
+

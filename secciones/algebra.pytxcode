@@ -1,0 +1,72 @@
+=>PYTHONTEX#py#default#default#0#code#####61#
+import numpy as np
+import sympy as sym
+from sympy import *
+
+# Definir las variables simbólicas
+#definir los coeficientes del polinomio
+
+
+n = 4
+
+x, y, z = sym.symbols('x y z')
+
+# Definir el polinomio
+polinomio = x**5 + 3*x**2*y + 3*x*y**2 + y**3
+
+# Factorizar el polinomio
+polinomio_factorizado = sym.factor(polinomio)
+
+=>PYTHONTEX#py#default#default#1#i#####82#
+latex(polinomio)
+=>PYTHONTEX#py#default#default#2#i#####82#
+latex(polinomio_factorizado)
+=>PYTHONTEX#py#default#default#3#code#####86#
+from sympy import *
+
+#definir el polinomio
+
+x = symbols('x')
+polinomio2= x**2 + 2*x + 1
+
+#factorizar el polinomio
+
+factores2 = factor(polinomio2)
+
+# mostrar el polinomio factorizado con raices reales e imaginarias
+
+for f in factores.args:
+      print(f)
+      raices = solve(f,x)
+      for r in raices:
+	if r.is_real:
+		print(r)
+	else:
+		print(r.evalf())
+=>PYTHONTEX#py#default#default#4#i#####110#
+latex(polinomio2)
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-algebra
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|

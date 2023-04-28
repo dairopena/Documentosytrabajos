@@ -1,0 +1,94 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                   File: OSAmeetings.tex             %
+%                  Date: 29 Novemver 2018              %
+%                                                     %
+%     For preparing LaTeX manuscripts for submission  %
+%       submission to OSA meetings and conferences    %
+%                                                     %
+%       (c) 2018 Optical Society of America           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,10pt]{article} 
+%% if A4 paper needed, change letterpaper to A4
+
+\usepackage{osameet3} %% use version 3 for proper copyright statement
+
+%% provide authormark
+\newcommand\authormark[1]{\textsuperscript{#1}}
+
+%% standard packages and arguments should be modified as needed
+\usepackage{amsmath,amssymb}
+%\usepackage[colorlinks=true,bookmarks=false,citecolor=blue,urlcolor=blue]{hyperref}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{float}
+\usepackage{minted}
+\usepackage[spanish,activeacute,es-tabla]{babel}
+\usepackage{csquotes}
+%\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epstopdf-base}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{times}
+\usepackage{booktabs}
+\usepackage{mathtools}
+\usepackage{commath}
+%\usepackage{tcolorbox}
+\renewcommand{\shorthandsspanish}{}
+\usepackage{lscape}
+\usepackage{array, multirow, multicol}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{cancel}
+\usepackage{tikz,color}
+\usepackage{tikz-3dplot}
+\usepackage{txfonts}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{txfonts}
+\titleformat*{\subsection}{\it}
+
+\usepackage[backend=biber,style=apa]{biblatex}
+
+\addbibresource{Quinto _Informe.bib}
+\usepackage[colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+
+
+\begin{document}
+
+\title{Modelos Matemáticos Para Suelos Agrícolas, Ley de Darcy}
+
+
+\author{Dairo Janover Peña Cardenas,\authormark{1} John Jairo Leal Gómez \authormark{2}}
+
+\address{\authormark{1} Facultad de ingeniería y administración, Universidad Nacional de Colombia - Sede Palmira, Palmira Valle del Cauca , 2022.\\}
+\address{\authormark{2,*} Departamento de Ciencias Básicas, Facultad de Ingeniería y Administración, Universidad Nacional de Colombia - Sede Palmira, Palmira Valle del Cauca, 2022. 
+\email {jlealgom@unal.edu.co}}\\
+
+%% email address is required
+
+
+
+\begin{abstract}
+
+Se realizó una revisión bibliográfica de los modelos matemáticos que permiten comprender los fenómenos físicos que ocurren dentro del suelo, algunos de ellos como la humedad y la filtración, y que se estudian con ecuaciones diferenciales parciales como la Ley de Darcy y ecuaciones derivadas.  Se presentan diversos trabajos en los cuales se incorporan éstas herramientas matemáticas para el estudio de los suelos agrícolas.
+
+\end{abstract}
+
+\section{Introducción}
+
+\input{reseña}
+
+
+\section{Conclusiones}
+\input{conclusiones}
+
+\printbibliography
+
+
+
+\end{document}
