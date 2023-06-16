@@ -1,50 +1,34 @@
-=>PYTHONTEX#py#default#default#0#code#####61#
+=>PYTHONTEX#py#default#default#0#code#####62#
 import numpy as np
 import sympy as sym
 from sympy import *
 
-# Definir las variables simbólicas
-#definir los coeficientes del polinomio
+class calculo:
 
+    def limite(funcion, x, valor):
+        funcion = sympify(funcion)
+        x = symbols('x')
 
-n = 4
+        # Calcular el límite
 
-x, y, z = sym.symbols('x y z')
+        limite = limit(funcion, x, valor)
 
-# Definir el polinomio
-polinomio = x**5 + 3*x**2*y + 3*x*y**2 + y**3
+        return limite
 
-# Factorizar el polinomio
-polinomio_factorizado = sym.factor(polinomio)
+    def derivada (funcion, x):
+            funcion = sympify(funcion)
+            x = sym.Symbol('x')
 
-=>PYTHONTEX#py#default#default#1#i#####82#
-latex(polinomio)
-=>PYTHONTEX#py#default#default#2#i#####82#
-latex(polinomio_factorizado)
-=>PYTHONTEX#py#default#default#3#code#####86#
-from sympy import *
+            #calcular la derivada
+            derivada = sym.diff(funcion, x)
 
-#definir el polinomio
+        return derivada
 
-x = symbols('x')
-polinomio2= x**2 + 2*x + 1
+lim = calculo.limite('((cos(x))**2+(sin(x))**2)/x', 'x', 0)
+der = calculo.derivada('((cos(x))**2+(sin(x))**2)/x', 'x')
+print(lim)
+print(der)
 
-#factorizar el polinomio
-
-factores2 = factor(polinomio2)
-
-# mostrar el polinomio factorizado con raices reales e imaginarias
-
-for f in factores.args:
-      print(f)
-      raices = solve(f,x)
-      for r in raices:
-	if r.is_real:
-		print(r)
-	else:
-		print(r.evalf())
-=>PYTHONTEX#py#default#default#4#i#####110#
-latex(polinomio2)
 =>PYTHONTEX:SETTINGS#
 version=0.18
 outputdir=pythontex-files-algebra

@@ -24,7 +24,6 @@
 
 
 
-
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath, amsthm, amssymb, amsfonts}
@@ -56,63 +55,46 @@
 \usepackage{pythontex}
 
 
+\setpythontexlistingenv{pythoncode}
+
 \begin{document}
- %calcular las raíces del polinomio $p(x)=2x^6+5x^5+2x^2-3x+4=0$. 
-    \begin{pycode}
+
+\begin{pycode}
 import numpy as np
 import sympy as sym
 from sympy import *
 
-# Definir las variables simbólicas
-#definir los coeficientes del polinomio
+class calculo:
 
+    def limite(funcion, x, valor):
+        funcion = sympify(funcion) 
+        x = symbols('x')
 
-n = 4
+        # Calcular el límite
 
-x, y, z = sym.symbols('x y z')
+        limite = limit(funcion, x, valor)
+        
+        return limite
 
-# Definir el polinomio
-polinomio = x**5 + 3*x**2*y + 3*x*y**2 + y**3
+    def derivada (funcion, x):
+            funcion = sympify(funcion)
+            x = sym.Symbol('x')
+            
+            #calcular la derivada
+            derivada = sym.diff(funcion, x)
+            
+        return derivada
 
-# Factorizar el polinomio
-polinomio_factorizado = sym.factor(polinomio)
+lim = calculo.limite('((cos(x))**2+(sin(x))**2)/x', 'x', 0)
+der = calculo.derivada('((cos(x))**2+(sin(x))**2)/x', 'x')
+print(lim)
+print(der)
 
 \end{pycode}
 
-el polinomio $p(x)=\py{latex(polinomio)}$ factorizado es $\py{latex(polinomio_factorizado)}$.
-
-de igual manera para factorizar un polinomio con raices reales e imaginarias.
-
-\begin{pycode}
-from sympy import *
-
-#definir el polinomio
-
-x = symbols('x')
-polinomio2= x**2 + 2*x + 1
-
-#factorizar el polinomio
-
-factores2 = factor(polinomio2)
-
-# mostrar el polinomio factorizado con raices reales e imaginarias
-
-for f in factores.args:
-      print(f)
-      raices = solve(f,x)
-      for r in raices:
-	if r.is_real:
-		print(r)
-	else:
-		print(r.evalf())
-\end{pycode}
-
-las raíces del polinomio $p(x)=\py{latex(polinomio2)}$.
+Se calculará el límite de la siguiente función y su respectiva derivada cuando tiende a cero:
 
 \end{document}
-
-
-
 
 
 

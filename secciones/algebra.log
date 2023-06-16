@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.10)  26 APR 2023 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.10)  27 APR 2023 21:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -936,68 +936,74 @@ Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
 \c@pytx@pylab@default@default=\count366
 \c@pytx@pylabcon@default@default=\count367
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-9.
+Package newfloat Info: New float `pythoncode' with options `fileext=lopytx,list
+name={List of Listings},name=Listing' on input line 58.
+\c@pythoncode=\count368
+Package newfloat Info: float type `pythoncode'=4 on input line 58.
+Package caption Info: New subtype `subpythoncode' on input line 58.
+\c@subpythoncode=\count369
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+0.
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count368
+\l__color_backend_stack_int=\count370
 \l__pdf_internal_box=\box130
 )
 No file algebra.aux.
 \openout1 = `algebra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 59.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 60.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-59.
+60.
 (/usr/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 60.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-59.
+60.
 (/usr/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 60.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-59.
+60.
 (/usr/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 59.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 5
-9.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 60.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 6
+0.
 (/usr/share/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count369
+\scratchcounter=\count371
 \scratchdimen=\dimen315
 \scratchbox=\box131
-\nofMPsegments=\count370
-\nofMParguments=\count371
+\nofMPsegments=\count372
+\nofMParguments=\count373
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count372
+\MPscratchCnt=\count374
 \MPscratchDim=\dimen316
-\MPnumerator=\count373
-\makeMPintoPDFobject=\count374
+\MPnumerator=\count375
+\makeMPintoPDFobject=\count376
 \everyMPtoPDFconversion=\toks54
 )
 *geometry* driver: auto-detecting
@@ -1036,70 +1042,20 @@ LaTeX Font Info:    ... okay on input line 59.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 59.
+Package hyperref Info: Link coloring ON on input line 60.
 \@outlinefile=\write7
 \openout7 = `algebra.out'.
 
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
 (|'inkscape' -V )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: Trying Plan B...
 Package newfloat Info: `float' package detected.
-(./pythontex-files-algebra/algebra.pytxmcr)
-
-Package PythonTeX Warning: A "listing" environment already exists 
-(PythonTeX)                PythonTeX will not create one 
-(PythonTeX)                Use \setpythontexlistingenv to create a custom listi
-ng environment on input line 59.
-
-(./pythontex-files-algebra/algebra.pytxpyg)
-\c@pytx@py@default@default@line=\count375
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
-2.
-(/usr/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 8
-2.
-(/usr/share/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 8
-2.
-(/usr/share/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-82.
-(/usr/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 82
-.
-(/usr/share/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 8
-2.
-(/usr/share/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 8
-2.
-(/usr/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-)
-
-Package PythonTeX Warning: Missing autoprint content on input line 82.
-
-
-Package PythonTeX Warning: Missing autoprint content on input line 82.
-
-
-Package PythonTeX Warning: Missing autoprint content on input line 110.
-
+(./pythontex-files-algebra/algebra.pytxmcr) (./pythontex-files-algebra/algebra.
+pytxpyg)
+\c@pytx@py@default@default@line=\count377
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
@@ -1117,20 +1073,18 @@ Package rerunfilecheck Info: Checksums for `algebra.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29306 strings out of 476025
- 547229 string characters out of 5796532
- 1852388 words of memory out of 5000000
- 49206 multiletter control sequences out of 15000+600000
- 531686 words of font info for 81 fonts, out of 8000000 for 9000
+ 29175 strings out of 476025
+ 545141 string characters out of 5796532
+ 1851388 words of memory out of 5000000
+ 49118 multiletter control sequences out of 15000+600000
+ 513872 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,5n,92p,444b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/u
-rw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on algebra.pdf (1 page, 34985 bytes).
+</usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on algebra.pdf (1 page, 12814 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 22 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

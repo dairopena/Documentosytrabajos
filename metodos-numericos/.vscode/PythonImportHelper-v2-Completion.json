@@ -1,0 +1,63 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "sympy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sympy",
+        "description": "sympy",
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "newton",
+        "kind": 2,
+        "importPath": "metodo-newton-raphson",
+        "description": "metodo-newton-raphson",
+        "peekOfCode": "def newton(f,df,xi,tol):\n    x = xi\n    error = 1e3\n    n=1\n    while error > tol:\n        x = x - f(x)/df(x)\n        error = abs(f(x))\n        n += 1\n    print(\"La raíz es: {:.4f} \".format(x)) \n    print(\"Numero de iteraciones:{:d}\".format(n))",
+        "detail": "metodo-newton-raphson",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "metodo-newton-raphson",
+        "description": "metodo-newton-raphson",
+        "peekOfCode": "f = lambda x: x**15-10 ; df = lambda x: 15*x**14\nnewton(f,df,6,1e-8)",
+        "detail": "metodo-newton-raphson",
+        "documentation": {}
+    }
+]
